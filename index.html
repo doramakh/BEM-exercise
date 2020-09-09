@@ -11,97 +11,42 @@
 <body>
   
   
-  <!-- New Section -->
+  <!-- Meals Section -->
   
-  <section class="section">
+  <section class="section meals-section">
     <div class="container">
       <div class="section-content">
-        <ul class="list">
-          <li class="item">
-            <h3 class="item__heading">Кунсей батакон</h3>
-
-            <span class="item--new visually-hidden">new</span>
-
-            <p class="item__feature">8 шт. | 250 г. | 350 Kkal</p>
-
-            <div class="item__info">
-              <span class="info__price">260 руб.</span>
-              <div class="info__quantity">
-                <button class="quantity__button quantity__button--remove"></button>
+        <ul class="meals__list meals__list--bmargin">
+          <li class="meals__item meal">
+            <h3 class="meal__name">Кунсей батакон</h3>
+            
+            <div class="meal__img--wrapper">
+              <img class="meal__img" src="https://picsum.photos/186" alt="Meal img" width="186" height="186">
+            </div>
+            
+            <span class="meal--new visually-hidden">new</span>
+            
+            <div class="meal__info">
+              <span>8 шт.</span>
+              <span>250 г.</span>
+              <span>350 Kkal</span>
+            </div>
+            
+            <div class="meal__features">
+              <span class="meal__price">260 руб.</span>
+              
+              <div class="meal__quantity">
+                <button class="quantity__button quantity__button--remove" type="button" aria-label="убрать 1"></button>
                 <span class="quantity__number">1</span>
-                <button class="quantity__button quantity__button--add"></button>
+                <button class="quantity__button quantity__button--add" type="button" aria-label="добавить 1"></button>
               </div>
             </div>
-
-            <button class="item__button">
-              <span class="button__text">в корзину</span>
+            
+            <button class="meal__button">
+              <span class="meal__button-text">в корзину</span>
             </button>
           </li>
-
-          <li class="item">
-            <h3 class="item__heading">Унаги диру</h3>
-
-            <span class="item--spicy visually-hidden">spicy</span>
-
-            <span class="item--new visually-hidden">new</span>
-
-            <p class="item__feature">8 шт. | 960 г. | 800 Kkal</p>
-
-            <div class="item__info">
-              <span class="info__price">280 руб.</span>
-              <div class="info__quantity">
-                <button class="quantity__button quantity__button--remove"></button>
-                <span class="quantity__number">1</span>
-                <button class="quantity__button quantity__button--add"></button>
-              </div>
-            </div>
-
-            <button class="item__button">
-              <span class="button__text">в корзину</span>
-            </button>
-          </li>
-
-          <li class="item">
-            <h3 class="item__heading">Филадельфия</h3>
-
-            <span class="item--new visually-hidden">new</span>
-
-            <p class="item__feature">8 шт. | 450 г. | 400 Kkal</p>
-
-            <div class="item__info">
-              <span class="info__price">280 руб.</span>
-              <div class="info__quantity">
-                <button class="quantity__button quantity__button--remove"></button>
-                <span class="quantity__number">1</span>
-                <button class="quantity__button quantity__button--add"></button>
-              </div>
-            </div>
-
-            <button class="item__button">
-              <span class="button__text">в корзину</span>
-            </button>
-          </li>
-
-          <li class="item">
-            <h3 class="item__heading">Мексиканский</h3>
-
-            <span class="item--new visually-hidden">new</span>
-
-            <p class="item__feature">8 шт. | 460 г. | 490 Kkal</p>
-
-            <div class="item__info">
-              <span class="info__price">290 руб.</span>
-              <div class="info__quantity">
-                <button class="quantity__button quantity__button--remove"></button>
-                <span class="quantity__number">1</span>
-                <button class="quantity__button quantity__button--add"></button>
-              </div>
-            </div>
-
-            <button class="item__button">
-              <span class="button__text">в корзину</span>
-            </button>
-          </li>
+          
         </ul>
       </div><!-- section-content -->
     </div><!-- container -->

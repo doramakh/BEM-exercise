@@ -21,8 +21,8 @@ body {
 }
 
 .container {
-  max-width: 1148px;
-  padding: 0 24px;
+  max-width: 1170px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,4 +36,147 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section{
+  background-color: #ffffff;
+}
+
+.meals-section{
+  background-image: url(../img/news-section-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meals__list{
+  display: flex;
+  justify-content: space-between;
+  width: 1137px;
+  padding: 0;
+  color: #000000;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.meals__list--bmargin{
+  margin: 50px 0;
+}
+
+.meal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 263px;
+  box-shadow: 0 4px 29px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  font-family: "Open Sans", "Arial" sans-serif;
+  background-color: #fff;
+}
+
+.meal__img--wrapper{
+  order: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 263px;
+  height: 228px;
+}
+
+.meal__img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.meal__name{
+  margin: 0;
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.meal__info{
+  margin: 0;
+  margin-top: 11px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.meal__features{
+  display: flex;
+  justify-content: space-between;
+  width: 187px;
+  margin-top: 20px;
+}
+
+.meal__price{
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.43px;
+}
+
+.meal__quantity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 63px;
+}
+
+.quantity__button{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  border: none;
+  border: 1px solid #808080;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.quantity__button--remove{
+  background-image: url(../img/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.quantity__button--add{
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.quantity__number{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.meal__button{
+  padding: 6px 32px;
+  margin-top: 26px;
+  margin-bottom: 39px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #fd4f10;
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meal__button-text{
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
 }
