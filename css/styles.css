@@ -83,7 +83,7 @@ body {
   overflow: hidden;
 }
 
-.meal__img--wrapper{
+.meal__img-wrapper{
   order: -1;
   display: flex;
   align-items: center;
