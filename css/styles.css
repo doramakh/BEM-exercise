@@ -67,6 +67,7 @@ body {
 }
 
 .meal{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,6 +103,36 @@ body {
   font-size: 20px;
   line-height: 28px;
   font-weight: 700;
+}
+
+.meal__new::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 6px 20px;
+  font-family: "Roboto Slab", "Times New Roman" serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #1fba0a;
+  content: "new";
+}
+
+.meal__spicy::before{
+  position: absolute;
+  display: inline-block;
+  width: 49px;
+  height: 49px;
+  top: 22px;
+  right: 17px;
+  background-image: url(../img/spicy.png), 
+  linear-gradient(to top, #d44434 0%, #f75b49 100%);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
 }
 
 .meal__info{
